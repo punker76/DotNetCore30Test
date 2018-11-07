@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Wpf">
+    <!-- Project properties -->
+    <PropertyGroup>
+        <AssemblyName>GongSolutions.WPF.DragDrop</AssemblyName>
+        <Title>gong-wpf-dragdrop</Title>
+        <RootNamespace>GongSolutions.WPF.DragDrop</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RestoreSources>$(RestoreSources);https://api.nuget.org/v3/index.json;https://dotnet.myget.org/F/dotnet-core/api/v3/index.json</RestoreSources>
+    </PropertyGroup>
+    <!-- Items include -->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.DesktopUI" />
+	</ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2018.2.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="paket.references" />
+    </ItemGroup>
+</Project>
